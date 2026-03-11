@@ -6,7 +6,7 @@ Dos script de Python diseñados para eliminar caracteres indeseados de archivos 
 
 *NASCIIeliminator.py* elimina todos los caracteres no contenidos en el rango ASCII de un archivo y guarda el resultado en otro archivo de salida.
 
-*eeliminator.py* elimina específicamente todos los emojis de un archivode texto y guarda el resultado en otro archivo de salida.
+*eeliminator.py* elimina específicamente todos los emojis de un archivo de texto y guarda el resultado en otro archivo de salida.
 
 
 ## Requisitos
@@ -32,5 +32,5 @@ done
 ```
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [license.txt](LICENSE) para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [license.txt](license.txt) para más detalles.
 
