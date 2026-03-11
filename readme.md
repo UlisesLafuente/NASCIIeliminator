@@ -27,7 +27,7 @@ python3 NASCIIeliminator.py archivo_entrada.txt archivo_salida.txt
 ### Procesar múltiples archivos (usando bash)
 ```bash
 for file in *.txt; do
-    python emoji_eliminator.py "$file" "limpio_$file"
+    python3 emoji_eliminator.py "$file" "limpio_$file"
 done
 ```
 ## 📄 Licencia
