@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 import re
 import sys
@@ -9,7 +11,7 @@ def remove_emojis(text):
 
 '''
 The regular expression r'[^\x00-\x7F]+' is used to match one or more characters that are not within the ASCII range (i.e., characters outside of the 128 most common characters in Western languages).
-• r'...': The 'r' before the string denotes it as a raw string, meaning Python will not interpret backslashes (\) as escape characters.
+• r'...': The 'r' before the string denotes it as a raw string, meaning Python will not interpret backslashes as escape characters.
 • [...]: This is a character class that matches any one of the enclosed characters or character ranges.
 • ^: Inside a character class, ^ negates the match, so this part means "not" or "anything except".
 • \x00-\x7F: This specifies a range of ASCII values from 0 (NUL) to 127. ASCII is a character encoding standard that includes characters used in most Western languages.
